@@ -1,0 +1,60 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "BE/B.Tech",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    {
+      "id": 2,
+      "name": "B.Arch",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    {
+      "id": 3,
+      "name": "BCA",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    {
+      "id": 4,
+      "name": "B.Sc.",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    {
+      "id": 5,
+      "name": "BPharma",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    },
+    {
+      "id": 6,
+      "name": "BDS",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+    }
+  ],
+  "users": [
+    {
+      "course_id": "",
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "mobile": "9879479587",
+      "description": "TEST",
+      "id": 1
+    },
+    {
+      "course_id": "",
+      "name": "user2",
+      "email": "user2@gmail.com",
+      "mobile": "7648383933",
+      "description": "Test",
+      "id": 2
+    },
+    {
+      "course_id": "2",
+      "name": "user3",
+      "email": "user3@gmail.com",
+      "mobile": "9793475345",
+      "description": "Test",
+      "id": 3
+    }
+  ]
+}
