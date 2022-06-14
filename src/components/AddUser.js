@@ -5,7 +5,7 @@ import { addUser } from '../services/UserService';
 export default function AddUser() {
 
   const {id}=useParams();
-  const [state,setState]=useState({course_id:'',name:'',email:'',mobile:'',description:''});
+  const [state,setState]=useState({course_id:id,name:'',email:'',mobile:'',description:''});
   const navigate=useNavigate();
   const handler=(event)=>{
    const {name,value}=event.target;
@@ -15,10 +15,6 @@ export default function AddUser() {
 
   const userData=(event)=>{
          event.preventDefault();
-
-         const courseId = document.getElementById('course_id').value
-         console.log(courseId)
-         setState({...state,course_id:courseId});
          console.log(state)
 
          addUser(state)
@@ -36,7 +32,6 @@ export default function AddUser() {
         <h2 className='text-center mb-4'>Add Details</h2>
         <form onSubmit={userData}>
 
-          <input type="hidden" name='course_id' id='course_id' value={id}/>
           <div className="form-floating mb-3">
             <input type="text" className="form-control" name='name' id="name" placeholder="Enter full name" onChange={handler}/>
             <label htmlFor="name">Full Name</label>
